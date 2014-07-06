@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Sign-in with Github
+  body
+    - if current_user
+      p
+        = "Welcome #{current_user.name}"
+    - else
+      p
+        = link_to "Sign-in with Github", "/auth/github"
+
+

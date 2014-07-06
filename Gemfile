@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'omniauth-github'
+gem 'slim-rails'
+gem 'dotenv-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
